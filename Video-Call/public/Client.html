@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Microsoft Teams
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel = "icon" 
+        href = "https://statics.teams.cdn.live.net/hashed/favicon/prod/favicon-96x96-40c574c.png"
+        type = "image/x-icon">
+        <link rel="stylesheet" href="../style.css">
+        <script src="https://kit.fontawesome.com/cb76c8418d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="main">
+            <header>
+                <nav>
+                    <div class="logo"><h1 class=""> MICROSOFT </h1></div>
+                    <div class="menu">
+                        <a href="#">Home</a>
+                        <a href="#Video">Video Call</a>
+                        <a href="#Chat">Chat</a>
+                    </div>
+                </nav>
+            </header>
+        
+            <main>
+                <section>
+                    <h1>Microsoft Teams |<span class="content"></span></h1>
+                </section>
+                <div>
+                    <img src="Video-Chat-Design-Logo.png" alt="Video-Chat-Design-Logo">
+                </div>
+            </main>
+            <main id="vid">
+                <div>
+                    <img src="video-logo.jpg" alt= "Chat-Logo">
+                </div>
+                <section>
+                    <h1 id="Video">Video Call</h1>
+                    <input placeholder="Enter RoomID..."
+                                type="number"
+                                id="roomID-input" required><br>
+                    <button onclick="startCall()" class="in-button">Start Call</button>
+                    <button onclick="joinCall()" class="in-button">Join Call</button>
+                </section>
+            </main>
+            <main>
+                <section>
+                    <h1 id="Chat">Chat</h1>
+                    <button 
+                        onclick="window.location.href = 'https://microsoft-chat-app.herokuapp.com/';" 
+                        class="in-button">Chat
+                    </button>
+                </section>
+                <div>
+                    <img src="Chat-logo.jpg" alt= "Chat-Logo">
+                </div>
+            </main>
+
+            <footer></footer>
+        </div>
+
+
+        <div id = "container">
+            <div class="header">
+                <h2>Microsoft Teams | Video Call</h2>
+                <button onclick="reset()" id="reset-button">Reset</button>
+            </div>
+
+            <div id="video-container">
+                <div id="invite-box-container">
+                    <div id="invite-box">
+                        <p id="invite-link">Link: 
+                            <a href='https://micro-video-chat-app.herokuapp.com/' target='blank'>
+                                https://micro-video-chat-app.herokuapp.com
+                            </a>
+                            <p id="roomID"></p>
+                        </p>
+                    </div>
+                </div>
+                <div id="video-grid">
+                    <video muted id="local-video"  ondblclick="zoomin('local')" autoplay></video>
+                    <video id="remote-video" ondblclick="zoomin('remote')" autoplay></video>
+                </div>
+
+                <div class="options">
+                    <button onclick="muteVideo()" class="b" id="muteVideo">
+                        <i class="fas fa-video fa-lg"></i>
+                        <div>Mute Video</div>
+                    </button>
+                    <button onclick="muteAudio()" class="b" id="muteAudio">
+                        <i class="fas fa-microphone fa-lg"></i>
+                        <div>Mute Audio</div>
+                    </button>
+                    <button onclick="invite()" class="b">
+                        Invite
+                        <div>Send Invite</div>
+                    </button>
+                    <button onclick="leave()" class="b">
+                        <i class="fas fa-phone"></i>                        
+                        <div>Leave Meeting</div>
+                    </button>
+                    <button onclick="window.open('https://microsoft-chat-app.herokuapp.com/');"  class="b" id="share-button">
+                        <i class="fas fa-comment-alt fa-lg"></i>                
+                        <div>Chat</div>
+                    </button>
+                </div>
+            </div>
+        <div>
+        <script src="./Client.js"></script>
+    </body>
+
+</html>

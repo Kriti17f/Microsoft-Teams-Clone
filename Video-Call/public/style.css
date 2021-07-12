@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 4rem;
+    background-color: #464775;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+}
+
+nav .menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a {
+    /* width: 4%; */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:first-child {
+    color: violet;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+
+section {
+    margin: 2rem;
+    text-align: center;
+}
+
+section span {
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 1px 2px white;
+}
+
+section h1{
+    color: #4b53bc;
+    margin: 3rem 0 2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+}
+
+#roomID-input {
+    text-align: center;
+    margin: 1rem 0;
+    width: 19rem;
+    border: 4px solid #9c62bd;
+    padding: 0.5rem;
+    bottom: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+
+section .in-button {
+    width: 8rem;
+    height: 3rem;
+    margin: 10px;
+    border-radius: 0.5rem;
+    background-color: #464775;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    transition: all .5s ease;
+}
+
+section .in-button:hover {
+    background:#8972a0;
+}
+
+.content::after {
+    content: '';
+    animation: change-content 10s infinite linear;
+    color: black;
+}
+
+@keyframes change-content {
+    0%{content: " Meet";}
+    30%{content: " Chat";}
+    60%{content: " Collaborate";}
+}
+
+img {
+    margin: 1rem;
+    width: 40rem;
+    height: auto;
+}
+
+#invite-box-container{
+    display: none;
+    background: #29202f;
+    box-shadow: 0 1.6rem 1.8rem -0.4rem rgb(0 0 0 / 56%);
+    top: 10px;
+    position: fixed;
+    width: 40rem;
+    text-align: center;
+}
+
+#invite-box {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 5px;
+    width: 80%;
+    border-radius: .4rem;
+}
+
+#container {
+    background: #1b1a1a;
+    height: 100vh;
+    display: none;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    color: white;
+    background-color: #464775;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#reset-button {
+    margin-right: 50px;
+    width: 5rem;
+    background: #ccac96;
+    border-radius: 2rem;
+}
+
+#video-container {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;    
+}
+
+#video-grid {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 0;
+    height: 80%;
+}
+
+#video-container video {
+    height: 500px;
+    /* height: auto; */
+    vertical-align: middle;
+    width: 45%;
+    top: 20px;
+    margin: 40px;
+    position: relative;
+    background: #000000;
+    border-radius: 1%;
+    border: solid rgba(240, 166, 202, 1);
+    transform: rotateY(180deg);
+}
+
+#local-video {
+    display: none;
+}
+
+#remote-video {
+    display: none;
+}
+
+.options {
+    position: absolute;
+    /* left: 45%;*/
+    bottom: 30px;
+    display: flex;
+    width: 60%;
+    border-radius: 5px;
+    background: #000000ad;
+    height: 5vh;
+    padding: 10px;
+    justify-content: center;
+}
+
+.b {
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+    padding-top: 9px;
+    border-radius: 50%;
+    background-color: black;
+    color: Green;
+    cursor: pointer;
+}
+
+.b div{
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.b:hover div{
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.b:hover {
+    background-color: rgba(180, 175, 175, 0.137);
+}
+
+@media(max-width:1024px) {
+    html {
+        font-size: 65%;
+    }
+    main {
+        flex-direction: column-reverse;
+        height: 70rem;
+    }
+    #vid {
+        flex-direction: column;
+    }
+    img {
+        margin: 10rem 0;
+    }
+    #video-grid {
+        flex-direction: column;
+    }
+    
+}
+
+footer {
+    height: 5rem;
+    background: black;
+}
+
