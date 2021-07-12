@@ -11,7 +11,7 @@ Microsoft Teams Clone Link: https://micro-video-chat-app.herokuapp.com/
  
  ![image](https://user-images.githubusercontent.com/67540785/125332423-a804fa80-e366-11eb-8154-1c95f8045af3.png)
  
- ![image](https://user-images.githubusercontent.com/67540785/125332513-c0751500-e366-11eb-90a8-e8afe800cf40.png)
+ ![image](https://user-images.githubusercontent.com/67540785/125333706-3037cf80-e368-11eb-8512-627fa5a8b645.png)
 
     * Video/Audio Mute Buttons
     * Invite option
