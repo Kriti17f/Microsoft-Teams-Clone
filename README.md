@@ -11,13 +11,13 @@ Microsoft Teams Clone Link: https://micro-video-chat-app.herokuapp.com/
 Research and Planning<br/>
          |<br/>
          |<br/>
-Sprint 1: Work on Features With Higher Priority (Video Calling)<br/>
+Sprint 1: Worked on Features With Higher Priority (Video Calling)<br/>
          |<br/>
          |<br/>
-Sprint 2: Work on additional Features (video/audio mute buttons, invite link, and front-end of the web application)<br/>
+Sprint 2: Worked on additional Features (video/audio mute buttons, invite link, and front-end of the web application)<br/>
          |<br/>
          |<br/>
-Sprint 3: Work on adapt feature (Chat Feature)<br/>
+Sprint 3: Worked on adapt feature (Chat Feature)<br/>
          |<br/>
          |<br/>
 Sprint 4: Testing And Deploying
