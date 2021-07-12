@@ -15,7 +15,7 @@ Microsoft Teams Clone Link: https://micro-video-chat-app.herokuapp.com/
 
     * Video/Audio Mute Buttons
     * Invite option
-    * Zoom-in video
+    * Zoom-in video by double clicking on it
     * Chat option
     * Leave Meeting option 
     
