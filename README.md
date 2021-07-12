@@ -6,6 +6,22 @@ Microsoft Teams Clone Link: https://micro-video-chat-app.herokuapp.com/
 
 ![image](https://user-images.githubusercontent.com/67540785/125330521-8440b500-e364-11eb-9a2e-d167cd33c5ca.png)
 
+## Agile Planning
+
+Research and Planning
+         |
+         |
+Sprint 1: Work on Features With Higher Priority (Video Calling)
+         |
+         |
+Sprint 2: Work on additional Features (video/audio mute buttons, invite link, and front-end of the web application)
+         |
+         |
+Sprint 3: Work on adapt feature (Chat Feature)
+         |
+         |
+Sprint 4: Testing And Deploying
+
 ## Features
  1. Video Call 
  
