@@ -22,6 +22,14 @@ Sprint 3: Worked on adapt feature (Chat Feature)<br/>
          |<br/>
 Sprint 4: Testing And Deploying
 
+## Technologies Used
+
+* Nodejs - Backend
+* Express
+* HTML, CSS,and Javascript - Frontend
+* Websockets - For signalling
+* WebRTC API - For peer to peer communication
+
 ## Features
  1. Video Call 
  
