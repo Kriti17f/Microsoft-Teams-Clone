@@ -40,7 +40,7 @@ Sprint 4: Testing And Deploying
     * Video/Audio Mute Buttons
     * Invite option
     * Zoom-in the video by double-clicking on it
-    * Chat option
+    * Chat option - can chat before, during as well as after the meeting
     * Leave Meeting option 
     
  2. Separate Chat Application
