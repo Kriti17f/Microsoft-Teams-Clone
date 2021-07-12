@@ -8,18 +8,18 @@ Microsoft Teams Clone Link: https://micro-video-chat-app.herokuapp.com/
 
 ## Agile Planning
 
-Research and Planning
-         |
-         |
-Sprint 1: Work on Features With Higher Priority (Video Calling)
-         |
-         |
-Sprint 2: Work on additional Features (video/audio mute buttons, invite link, and front-end of the web application)
-         |
-         |
-Sprint 3: Work on adapt feature (Chat Feature)
-         |
-         |
+Research and Planning<br/>
+         |<br/>
+         |<br/>
+Sprint 1: Work on Features With Higher Priority (Video Calling)<br/>
+         |<br/>
+         |<br/>
+Sprint 2: Work on additional Features (video/audio mute buttons, invite link, and front-end of the web application)<br/>
+         |<br/>
+         |<br/>
+Sprint 3: Work on adapt feature (Chat Feature)<br/>
+         |<br/>
+         |<br/>
 Sprint 4: Testing And Deploying
 
 ## Features
