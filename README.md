@@ -30,6 +30,4 @@ Microsoft Teams Clone Link: https://micro-video-chat-app.herokuapp.com/
     * Leave chat room option
     
 
-## Documentation - 
-
-## Demo - 
+## Demo Video - 
