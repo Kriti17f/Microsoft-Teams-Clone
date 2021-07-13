@@ -242,5 +242,5 @@ function reset() {
     localVideo.style.width = "45%"
     localVideo.style.height = "500px"
     remoteVideo.style.width = "45%"
-    remoteVideo.style.width = "500px"
+    remoteVideo.style.height = "500px"
 }
